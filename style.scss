@@ -1,0 +1,298 @@
+body {
+    width: 100%;
+    font-size: 18px;
+    font-family: "Public Sans";
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 15px;
+    img {
+        margin-left: 30px;
+    }
+    ul {
+        margin-left: 20%;
+    }
+    li {
+        margin-left: 10px;
+    }
+    .btn {
+        width: 45%;
+        margin-left: 250px;
+        border-radius: 50px;
+        padding: 5px 40px;
+        color: hsl(0, 0%, 100%);
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    }
+}
+
+// Section One
+
+.section-one {
+    .row {
+        margin: 0;
+        padding: 10;
+        width: 1510px;
+    }
+    .first-row {
+        margin-top: 100px;
+        font-size: 700;
+        h1,
+        p,
+        button {
+            margin-left: 40px;
+        }
+    }
+    .btn {
+        border-radius: 50px;
+        padding: 5px 40px;
+        color: hsl(0, 0%, 100%);
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    }
+    .second-row {
+        overflow: hidden;
+        float: right;
+        .layer {
+            width: 950px;
+            float: right;
+            margin-top: -160px;
+            margin-right: -150px;
+            height: 700px;
+        }
+        .top {
+            width: 750px;
+            float: right;
+            margin-right: -100px;
+            margin-top: -650px;
+            height: 800px;
+        }
+    }
+}
+
+//Section One Mobile View
+.mobile {
+    display: none;
+    .first-row {
+        margin-top: 100px;
+        font-size: 700;
+        h1,
+        p,
+        button {
+            margin-left: 20px;
+        }
+    }
+    .btn {
+        border-radius: 50px;
+        padding: 5px 40px;
+        color: hsl(0, 0%, 100%);
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    }
+    .second-row {
+        overflow: hidden;
+        float: right;
+        .layer {
+            width: 600px;
+            float: right;
+            margin-top: -160px;
+            margin-right: -70px;
+            height: 800px;
+        }
+        .top {
+            width: 300px;
+            float: right;
+            margin-top: -790px;
+            height: 800px;
+        }
+    }
+}
+
+//Section Two
+
+.section-two {
+    margin-top: -220px;
+    background-color: hsl(220, 16%, 96%);
+    display: block;
+    padding: 150px 0 70px 70px;
+    h1 {
+        font-weight: 500;
+    }
+    p {
+        width: 46%;
+        font-weight: 300;
+    }
+    .col-sm-3 {
+        display: block;
+        margin-top: 40px;
+        h1 {
+            margin-top: 30px;
+            font-weight: 500;
+        }
+        p {
+            font-size: 300;
+            width: 85%;
+        }
+    }
+}
+
+//Section Three
+
+.section-three {
+    .row {
+        color: hsl(233, 8%, 62%);
+        margin-left: 50px;
+    }
+    h1 {
+        margin-top: 100px;
+        margin-left: 60px;
+        font-size: 700;
+    }
+    .card {
+        border: 0 white;
+        .card-title {
+            font-size: 10px;
+            font-weight: 700;
+        }
+        .card-text {
+            font-weight: 700;
+        }
+    }
+}
+
+//Footer Section
+
+.page-footer {
+    background-color: hsl(233, 26%, 24%);
+    color: hsl(0, 0%, 100%);
+    .cover {
+        margin-left: 90px;
+        img {
+            margin-top: 70px;
+        }
+    }
+    .row {
+        margin-top: -125px;
+        h5 {
+            font-size: 17px;
+        }
+        a {
+            text-decoration: none;
+            color: hsl(0, 0%, 100%);
+        }
+        .mx-auto {
+            border: 0;
+            .footer-copyright {
+                font-size: 15px;
+            }
+        }
+        .btn {
+            margin-top: 5px;
+            border-radius: 50px;
+            padding: 5px 40px;
+            color: hsl(0, 0%, 100%);
+            background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        }
+    }
+}
+
+.d {
+    color: hsl(233, 26%, 24%);
+    color: hsl(136, 65%, 51%);
+    color: hsl(192, 70%, 51%);
+    color: hsl(233, 8%, 62%);
+
+    color: hsl(220, 16%, 96%);
+    color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 100%);
+}
+
+// For mobile screen
+
+@media screen and (max-width: 680px) {
+    body {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .navbar {
+        .navbar-nav {
+            display: block;
+            text-align: center;
+        }
+        .btn {
+            display: none;
+        }
+    }
+
+    .section-one {
+        .row {
+            display: none;
+        }
+    }
+
+    .mobile {
+        display: contents;
+        .second-row {
+            overflow: hidden;
+            .layer {
+                width: 900px;
+                margin-top: -300px;
+                margin-right: -300px;
+                height: 900px;
+            }
+            .top {
+                width: 500px;
+                margin-top: -850px;
+                margin-right: -11px;
+                height: 800px;
+            }
+        }
+        .first-row {
+            margin-top: -50px;
+            text-align: center;
+        }
+    }
+
+    .section-two {
+        margin-top: 50px;
+        h1 {
+            text-align: center;
+        }
+        p {
+            width: 90%;
+            text-align: center;
+        }
+        .col-sm-3 {
+            text-align: center;
+        }
+    }
+
+    .section-three {
+        .card {
+            .card-text {
+                width: 120%;
+            }
+            .h7 {
+                width: 130%;
+                text-align: center;
+            }
+        }
+    }
+
+    .page-footer {
+        .cover {
+            .first-img {
+                display: block;
+                text-align: center;
+                .d-flex {
+                    margin-left: 160px;
+                }
+            }
+        }
+        .row {
+            margin-top: 0;
+            text-align: center;
+        }
+        margin-left: -90px;
+    }
+}
