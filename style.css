@@ -199,8 +199,8 @@ body {
 
 @media screen and (max-width: 680px) {
   body {
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .navbar .navbar-nav {
@@ -224,7 +224,7 @@ body {
     width: 97%;
   }
   .mobile .second-row .layer {
-    width: 900px;
+    width: 840px;
     margin-top: -300px;
     margin-right: -200px;
     height: 900px;
