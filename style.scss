@@ -252,7 +252,7 @@ body {
         .first-row {
             margin-top: -50px;
             text-align: center;
-            width: 95%;
+            width: 90%;
         }
     }
 
@@ -281,23 +281,26 @@ body {
         }
         .row {
             margin-right: 0;
+            margin-left: 90px;
             align-items: center;
-            
+            text-align: center;
+            padding-right: 0;           
 
         }
         .card {
+            text-align: center;
             .card-text {
                 width: 95%;
             }
             .h7 {
-                width: 100%;
+                width: 94%;
                 text-align: center;
             }
         }
     }
 
     .page-footer {
-        margin-right: 0px;
+        margin-right: 0;
         margin-left: 0;
         padding: 0;
         width: 100%;

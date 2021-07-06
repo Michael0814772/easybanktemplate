@@ -238,7 +238,7 @@ body {
   .mobile .first-row {
     margin-top: -50px;
     text-align: center;
-    width: 95%;
+    width: 90%;
   }
 
   .section-two {
@@ -267,20 +267,26 @@ body {
   }
   .section-three .row {
     margin-right: 0;
+    margin-left: 90px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
+    padding-right: 0;
+  }
+  .section-three .card {
+    text-align: center;
   }
   .section-three .card .card-text {
     width: 95%;
   }
   .section-three .card .h7 {
-    width: 100%;
+    width: 94%;
     text-align: center;
   }
 
   .page-footer {
-    margin-right: 0px;
+    margin-right: 0;
     margin-left: 0;
     padding: 0;
     width: 100%;
