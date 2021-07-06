@@ -217,25 +217,28 @@ body {
 
   .mobile {
     display: contents;
+    width: 95%;
   }
   .mobile .second-row {
     overflow: hidden;
+    width: 97%;
   }
   .mobile .second-row .layer {
     width: 900px;
     margin-top: -300px;
-    margin-right: -300px;
+    margin-right: -200px;
     height: 900px;
   }
   .mobile .second-row .top {
-    width: 500px;
+    width: 450px;
     margin-top: -850px;
-    margin-right: -11px;
+    margin-left: 80px;
     height: 800px;
   }
   .mobile .first-row {
     margin-top: -50px;
     text-align: center;
+    width: 95%;
   }
 
   .section-two {
@@ -245,7 +248,7 @@ body {
     text-align: center;
   }
   .section-two p {
-    width: 90%;
+    width: 85%;
     text-align: center;
   }
   .section-two .col-sm-3 {
@@ -254,8 +257,10 @@ body {
 
   .section-three {
     padding: 0;
-    width: 110%;
+    width: 95%;
     overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
   }
   .section-three h1 {
     text-align: center;
@@ -265,10 +270,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 145px;
   }
   .section-three .card .card-text {
-    width: 100%;
+    width: 95%;
   }
   .section-three .card .h7 {
     width: 100%;
@@ -276,10 +280,10 @@ body {
   }
 
   .page-footer {
-    margin-right: -150px;
+    margin-right: 0px;
     margin-left: 0;
     padding: 0;
-    width: 110%;
+    width: 100%;
     overflow: hidden;
   }
   .page-footer .cover .first-img {
@@ -290,7 +294,7 @@ body {
     margin-left: -95px;
   }
   .page-footer .cover .first-img .d-flex {
-    margin-left: 120px;
+    margin-left: 100px;
   }
   .page-footer .container {
     padding: 0;
