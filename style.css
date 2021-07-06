@@ -230,7 +230,7 @@ body {
     height: 900px;
   }
   .mobile .second-row .top {
-    width: 450px;
+    width: 380px;
     margin-top: -850px;
     margin-left: 80px;
     height: 800px;
@@ -264,10 +264,11 @@ body {
   }
   .section-three h1 {
     text-align: center;
+    margin-left: 0;
   }
   .section-three .row {
     margin-right: 0;
-    margin-left: 90px;
+    margin-left: 40px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -300,7 +301,7 @@ body {
     margin-left: -95px;
   }
   .page-footer .cover .first-img .d-flex {
-    margin-left: 100px;
+    margin-left: 30px;
   }
   .page-footer .container {
     padding: 0;
