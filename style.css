@@ -252,26 +252,52 @@ body {
     text-align: center;
   }
 
+  .section-three {
+    padding: 0;
+    width: 110%;
+    overflow: hidden;
+  }
+  .section-three h1 {
+    text-align: center;
+  }
+  .section-three .row {
+    margin-right: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 145px;
+  }
   .section-three .card .card-text {
-    width: 99%;
+    width: 100%;
   }
   .section-three .card .h7 {
-    width: 99%;
+    width: 100%;
     text-align: center;
   }
 
   .page-footer {
-    margin-left: -120px;
+    margin-right: -150px;
+    margin-left: 0;
+    padding: 0;
+    width: 110%;
+    overflow: hidden;
   }
   .page-footer .cover .first-img {
     display: block;
     text-align: center;
   }
-  .page-footer .cover .first-img .d-flex {
-    margin-left: 165px;
+  .page-footer .cover .first-img .logo-white {
+    margin-left: -95px;
   }
-  .page-footer .row {
+  .page-footer .cover .first-img .d-flex {
+    margin-left: 120px;
+  }
+  .page-footer .container {
+    padding: 0;
+  }
+  .page-footer .container .row {
     margin-top: 0;
     text-align: center;
+    margin-left: -80px;
   }
 }
