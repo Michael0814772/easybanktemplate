@@ -206,6 +206,7 @@ body {
   .navbar .navbar-nav {
     display: block;
     text-align: center;
+    margin-left: -30px;
   }
   .navbar .btn {
     display: none;
@@ -227,13 +228,13 @@ body {
     width: 840px;
     margin-top: -180px;
     margin-right: -200px;
-    height: 600px;
+    height: 620px;
   }
   .mobile .second-row .top {
     width: 380px;
-    margin-top: -420px;
+    margin-top: -440px;
     margin-left: 80px;
-    height: 400px;
+    height: 420px;
   }
   .mobile .first-row {
     margin-top: -20px;
